@@ -10,7 +10,7 @@ def fn(x,y):
 def char2num(s):
     return {'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9}[s]
 print(reduce(fn,map(char2num,'12345')))
-#lambda简化版
+#lambdad的简化版
 from functools import reduce
 def char2num(s):
     return {'0': 0, '1': 1, '2': 2, '3': 3, '4': 4, '5': 5, '6': 6, '7': 7, '8': 8, '9': 9}[s]
