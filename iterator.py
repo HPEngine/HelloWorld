@@ -1,12 +1,12 @@
 from collections import Iterator
-#用isinstance来判断是否为Iterator
-print(isinstance((x for x in range(10)),Iterator))
-#iter用来将dict，list，str转变为Iterator
+# 用isinstance来判断是否为Iterator
+print(isinstance((x for x in range(10)), Iterator))
+# iter用来将dict，list，str转变为Iterator
 print(isinstance(iter([]), Iterator))
 
-#for x in [1, 2, 3, 4, 5]:
+# for x in [1, 2, 3, 4, 5]:
 #   print(x)
-#完全等价于以下代码
+# 完全等价于以下代码
 
 # 首先获得Iterator对象:
 it = iter([1, 2, 3, 4, 5])
